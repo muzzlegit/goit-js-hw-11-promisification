@@ -1,0 +1,21 @@
+body {
+  background-color: gray;
+}
+.navigation {
+  text-align: center;
+}
+.navigation__link {
+  background-color: rgb(83, 82, 82);
+  padding: 4px;
+
+  color: wheat;
+  font-size: 16px;
+
+  border-radius: 2px;
+}
+.navigation__link:not(:last-child) {
+  margin-right: 10px;
+}
+.navigation__link.isActive {
+  color: rgb(255, 255, 255);
+}
